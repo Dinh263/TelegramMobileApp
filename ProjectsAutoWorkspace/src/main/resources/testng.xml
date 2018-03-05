@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="allSuites">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <suite-files>
+    <suite-file path="TestSendMessageToAnAccount.xml" />
+    <suite-file path="TestSendMessageToAGroup.xml" />
+    <suite-file path="TestReplyMessageToAnAccount.xml" />
+    <suite-file path="TestReplyMessageToAGroup.xml" />
+    <suite-file path="TestForwardMessageToAnAccount.xml" />
+    <suite-file path="TestForwardMessageToAGroup.xml" />
+    <suite-file path="testdemo.xml" />
+  </suite-files>
+</suite>
+

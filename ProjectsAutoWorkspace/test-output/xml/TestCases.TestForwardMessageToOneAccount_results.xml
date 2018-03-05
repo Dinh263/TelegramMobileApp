@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testing for case forward message to an account"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="23.716">
+  <properties />
+  
+  
+            <testcase name="checkReceiveForwardMessageSuccessfully" time="6.015" classname="TestCases.TestForwardMessageToOneAccount" />
+                <testcase name="forwardShortMessageToAnAccount" time="17.701" classname="TestCases.TestForwardMessageToOneAccount" />
+      
+</testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="82584" started-at="2016-12-19T11:23:33Z" finished-at="2016-12-19T11:24:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="82584" started-at="2016-12-19T11:23:33Z" finished-at="2016-12-19T11:24:56Z">
+      <class name="TestAuthenticationServer.TestAuthen">
+        <test-method status="PASS" signature="starUpAppiumServer()[pri:0, instance:TestAuthenticationServer.TestAuthen@578486a3]" name="starUpAppiumServer" is-config="true" duration-ms="30024" started-at="2016-12-19T18:23:03Z" finished-at="2016-12-19T18:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUpAppiumServer -->
+        <test-method status="PASS" signature="installApp()[pri:0, instance:TestAuthenticationServer.TestAuthen@578486a3]" name="installApp" is-config="true" duration-ms="38641" started-at="2016-12-19T18:23:33Z" finished-at="2016-12-19T18:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- installApp -->
+        <test-method status="PASS" signature="loginAccount()[pri:0, instance:TestAuthenticationServer.TestAuthen@578486a3]" name="loginAccount" duration-ms="27841" started-at="2016-12-19T18:24:12Z" finished-at="2016-12-19T18:24:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAccount -->
+        <test-method status="PASS" signature="unInstallAppAndDeleteOldSMS()[pri:0, instance:TestAuthenticationServer.TestAuthen@578486a3]" name="unInstallAppAndDeleteOldSMS" is-config="true" duration-ms="16076" started-at="2016-12-19T18:24:40Z" finished-at="2016-12-19T18:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unInstallAppAndDeleteOldSMS -->
+        <test-method status="PASS" signature="stopAppiumServer()[pri:0, instance:TestAuthenticationServer.TestAuthen@578486a3]" name="stopAppiumServer" is-config="true" duration-ms="354" started-at="2016-12-19T18:24:56Z" finished-at="2016-12-19T18:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppiumServer -->
+      </class> <!-- TestAuthenticationServer.TestAuthen -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

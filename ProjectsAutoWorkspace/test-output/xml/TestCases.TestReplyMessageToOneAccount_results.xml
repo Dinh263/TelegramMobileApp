@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testing for case reply message to an account"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="21.586">
+  <properties />
+  
+  
+            <testcase name="checkIfReceiveMessageReplySuccessfully" time="5.616" classname="TestCases.TestReplyMessageToOneAccount" />
+                <testcase name="replyAShortMessageToAnAccount" time="15.970" classname="TestCases.TestReplyMessageToOneAccount" />
+      
+</testsuite>
